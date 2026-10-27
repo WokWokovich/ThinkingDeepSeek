@@ -117,5 +117,4 @@ export function isCompletionEndpoint(url: string): boolean {
   if (url.indexOf("pow_challenge") !== -1) return false;
   if (url.indexOf("history_messages") !== -1) return false;
   return url.indexOf("chat_session") === -1;
-
 }
