@@ -1,0 +1,24 @@
+{
+  "name": "thinking-deepseek",
+  "version": "1.0.0",
+  "description": "Copy thinking blocks and attach previous thinking on chat.deepseek.com",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "prepare": "wxt prepare",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^4.0.0",
+    "wxt": "0.21.5"
+  },
+  "private": true
+}

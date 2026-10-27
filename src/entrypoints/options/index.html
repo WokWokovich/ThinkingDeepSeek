@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="wxt.open_in_tab" content="true" />
+    <title>Thinking DeepSeek Settings</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="md-page">
+      <header class="md-header">
+        <h1 class="md-headline">Thinking DeepSeek</h1>
+        <p class="md-subhead">Settings for thinking blocks on chat.deepseek.com</p>
+      </header>
+
+      <section class="md-card">
+        <div class="md-list-item">
+          <div class="md-list-item-text">
+            <span class="md-label">Copy button</span>
+            <span class="md-supporting">Show a copy button above every DeepThink reasoning block.</span>
+          </div>
+          <label class="md-switch">
+            <input type="checkbox" id="copyButtonEnabled" />
+            <span class="md-switch-track"><span class="md-switch-thumb"></span></span>
+          </label>
+        </div>
+      </section>
+
+      <section class="md-card">
+        <div class="md-list-item">
+          <div class="md-list-item-text">
+            <span class="md-label">Attach previous thinking</span>
+            <span class="md-supporting">Wrap the last thinking block in previous_thinking tags and prepend it to your next message. The preview appears in a grey frame inside your message.</span>
+          </div>
+          <label class="md-switch">
+            <input type="checkbox" id="previousThinkingEnabled" />
+            <span class="md-switch-track"><span class="md-switch-thumb"></span></span>
+          </label>
+        </div>
+      </section>
+
+      <p class="md-footnote">Changes are saved automatically.</p>
+    </main>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

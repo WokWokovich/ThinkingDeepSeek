@@ -1,0 +1,85 @@
+.tds-thinking-host {
+  position: relative;
+}
+
+.tds-copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #4d6bfe;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.15s ease, background 0.15s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.tds-copy-btn:hover {
+  opacity: 1;
+  background: #ffffff;
+}
+
+.tds-copy-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.tds-toast {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 2147483647;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: #1c1b1f;
+  color: #ffffff;
+  font: 14px/1.4 system-ui, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.tds-raw-tag-hidden {
+  display: none !important;
+}
+
+.tds-previous-thinking {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 0 8px 0;
+  padding: 6px 8px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  background: #f5f5f5;
+  color: #333333;
+  font: 12px/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  text-transform: none;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.tds-previous-thinking-label {
+  margin-bottom: 4px;
+  color: #666666;
+  font: 600 10px/1.2 system-ui, sans-serif;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.tds-previous-thinking-content {
+  margin: 0;
+  font: inherit;
+  text-transform: none;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
